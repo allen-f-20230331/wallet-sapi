@@ -17,3 +17,19 @@
 |PRIVATE_KEY|钱包私钥(需要在最前面加上0x)|
 
 ## 提现
+
+### url
+
+```
+/sapi/v1/nft/wallet/withdraw
+```
+
+### 参数说明
+
+|参数|说明|
+|:-:|:-:|
+|networkType|网络类型<br><br>eg:ETH/BSC/Polygon|
+|targetAddress|目标地址，此地址需要在web端进行配置|
+|nftInfoIds|nft info id|
+|timestamp|时间戳|
+|signature|签名<br><br>eg:见 https://binance-docs.github.io/apidocs/spot/en/#introduction|
