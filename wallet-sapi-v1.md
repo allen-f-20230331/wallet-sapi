@@ -16,6 +16,15 @@
 |ERC721_TOKEN_IDS|待充值的tokenId列表|
 |PRIVATE_KEY|钱包私钥(需要在最前面加上0x)|
 
+### 说明
+```
+1、确保npm版本 > 7.0.0
+
+2、安装依赖 npm install web3 axios
+
+3、执行node deposit
+```
+
 ## 提现
 
 ### url
